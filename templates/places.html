@@ -1,0 +1,35 @@
+{% extends "home.html" %}
+{% load static %}
+
+{% block title %}
+    <title>Places </title>
+{% endblock %}
+
+{% block body_block %}
+  <h1 class="jumbotron">
+    Visiting Places
+  </h1>
+
+  <!-- <div class="container">
+    <form method="POST">
+      {% csrf_token %}
+      <label for="Firstname"> <strong>FIRSTNAME</strong> :
+        <input type="text" name="firstname" id="fname">
+        <input class="btn btn-primary" type="submit" value="Submit">
+      </label>
+    </form>
+  </div> -->
+
+<div>
+    <img src="{% static 'images/places/monsoon.jpg' %}" alt="image not found" height="324px" width="324px">
+    <img src="{% static 'images/places/panchokot.jpg' %}" alt="image not found" height="324px" width="324px">
+    <img src="{% static 'images/places/AyodhyaHills.jpg' %}" alt="image not found" height="324px" width="324px">
+    <img src="{% static 'images/places/monsoon.jpg' %}" alt="image not found" height="324px" width="324px">
+    <img src="{% static 'images/places/panchokot.jpg' %}" alt="image not found" height="324px" width="324px">
+    <img src="{% static 'images/places/AyodhyaHills.jpg' %}" alt="image not found" height="324px" width="324px">
+
+</div>
+
+
+
+{% endblock body_block %}

@@ -1,0 +1,27 @@
+{% extends "home.html" %}
+
+{% load static %}
+
+{% block title %}
+    <title>Foods </title>
+{% endblock %}
+
+
+{% block body_block %}
+
+<div class="jumbotron">
+    <h1>Favourite Foods</h1>
+</div> 
+
+<div class="">
+    <a href="history.html"><img src="{% static 'images/foods/1.jpg' %}" alt="image not found" height="324px" width="324px"></a>
+    <img src="{% static 'images/foods/2.jpg' %}" alt="image not found" height="324px" width="324px">
+    <img src="{% static 'images/foods/3.webp' %}" alt="image not found" height="324px" width="324px">
+    <img src="{% static 'images/foods/gur-pitha.jpg' %}" alt="image not found" height="324px" width="324px">
+    <img src="{% static 'images/foods/guur-pitha.jpg' %}" alt="image not found" height="324px" width="324px">
+    <img src="{% static 'images/foods/hqdefault.jpg' %}" alt="image not found" height="324px" width="324px">
+    <img src="{% static 'images/foods/jalebi.jpg' %}" alt="image not found" height="324px" width="324px">
+
+</div>
+
+{% endblock body_block %}
