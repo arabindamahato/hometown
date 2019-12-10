@@ -4,13 +4,21 @@
 
 
 
-    /* img{
-        height:580px;
-        width:1333px;
-    } */
+/* img{
+    height:580px;
+    width:1333px;
+} */
 
-    img{	
-        border:3px double   black;
-        width:324px;
-        height:324px	;	
-        }
+
+
+
+/*css for modal images */
+.a{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+

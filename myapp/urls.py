@@ -10,4 +10,4 @@ urlpatterns = [
     path('places/', views.places, name = "places"),
 
 
-]
+]   
